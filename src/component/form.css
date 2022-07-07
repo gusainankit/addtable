@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conatiner-form {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(16 16 16 / 58%);
+    position: fixed;
+    top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 1;
+
+}
+.form{
+    background:whitesmoke;
+    height: 500px;
+    width: 450px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+   
+}
+
+.header{
+    font-size: 18px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding-bottom: 10px;
+}
+.info{
+    color: grey;
+    margin-top:12px ;
+}
+
+.info input{
+    border: none;
+    height: 30px;
+    width: 410px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    outline: none;
+    margin-top:8px ;
+}
+.para{
+    font-size: 12px;
+}
+
+.report{
+    color: grey;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+ .passed{
+    background-color: rgb(102, 233, 102);
+    font-size: 11px;
+    color:white;
+    width: 50px;
+    height: 20px;
+    border-radius: 8px;
+   padding-left: 7px;
+   padding-top: 2px;
+    font-weight: bold;
+    margin-top: 7px;
+   
+ }
+
+ .grade{
+    font-size: 11px;
+    color:  rgb(102, 233, 102);
+    margin-top: 7px;
+ }
+ 
+ .button{
+display: flex;
+justify-content: end;
+border-top: 1px solid rgb(212, 212, 212);
+margin-top: 15px;
+padding-top: 20px;
+ }
+
+ .cancel-btn{
+    border: none;
+    border:1px solid rgb(69 114 241); 
+    border-radius: 8px;
+    color:rgb(69 114 241); 
+    padding: 5px 10px;
+ }
+
+ .confirm-btn{
+    background:rgb(69 114 241); 
+    border: none;
+    border-radius:8px ;
+    padding: 5px 10px;
+    margin-left: 20px;
+    color: #fff;
+} 
+
+.error{
+    color: red;
+}
+ 

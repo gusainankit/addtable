@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.remove-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(16 16 16 / 58%);
+    position: fixed;
+    top:0px;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+
+}
+.header-remove{
+font-size: 18px;
+border-bottom: 1px solid rgb(212, 212, 212);
+padding-bottom: 15px;
+
+}
+
+.form-remove{
+    background:whitesmoke;
+    height: 310px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 15px 20px 10px 20px;
+   
+}
+.para-remove{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.student{
+    color: grey;
+    font-size: 12px;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.name{
+    font-size: 11.5px;
+    font-weight: bold;
+}
+.button-remove{
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid rgb(212, 212, 212);
+    margin-top: 15px;
+    padding-top: 20px;
+     }
+    
+     .cancel-btn{
+        border: none;
+        border:1px solid rgb(69 114 241); 
+        border-radius: 8px;
+        color:rgb(69 114 241); 
+        padding: 5px 10px;
+     }
+    
+     .remove-btn{
+        background:rgb(204, 88, 88); 
+        border: none;
+        border-radius:8px ;
+        padding: 5px 10px;
+        margin-left: 20px;
+        color: #fff;
+    } 
